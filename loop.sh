@@ -1,3 +1,5 @@
+# Created by fadeos and sam5558
+
 #!/bin/bash
 
 root=$1
