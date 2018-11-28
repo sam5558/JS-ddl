@@ -6,7 +6,11 @@ Simple python/bash script to get your favourite mangas from japscan.cc
 
 ## How to use it
 
-Just download the git projet and run the following command :
+Just download the git projet.
+run this command for the dependencies : 
+``` pip -r install dependencies```
+
+and run the following command to download your manga :
 
 ```./loop.sh  https://www.japscan.cc/lecture-en-ligne/manganame firstchapter lastchapter'```
 
