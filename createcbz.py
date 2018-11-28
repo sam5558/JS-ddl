@@ -1,3 +1,5 @@
+# Created by fadeos and sam5558
+
 import glob, os, os.path
 import urllib
 import urllib2
