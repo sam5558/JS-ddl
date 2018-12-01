@@ -12,12 +12,25 @@ run this command for the dependencies :
 
 and run the following command to download your manga :
 
-```./loop.sh  https://www.japscan.cc/lecture-en-ligne/manganame firstchapter lastchapter'```
+```./loop.sh [-v] https://www.japscan.cc/lecture-en-ligne/manganame first last'```
 
 Replace :
+
 * manganame : by the manga name specified in jaspcan.cc
-* firstchapter : by the number of the first chapter you want to dl
-* lastchapter:  by the number of the last chapter you want to dl
+* first : by the number of the first volume/chapter you want to dl
+* last :  by the number of the last volume/chapter you want to dl
+
+N.B : Also note that if you want to dl volumes use the -v option.
+
+Examples:
+
+Dl volume1 to volume10 of a manga :
+
+``` ./loop.sh -v https://www.japscan.cc/lecture-en-ligne/manganame 1 10```
+
+Dl chapter 100 to chapter 200 of a manga :
+
+``` ./loop.sh https://www.japscan.cc/lecture-en-ligne/manganame 100 200```
 
 ### Enjoy
 
