@@ -24,11 +24,11 @@ N.B : Also note that if you want to dl volumes use the -v option.
 
 Examples:
 
-Dl volume1 to volume10 of a manga :
+DL volume 1 to volume 10 of a manga :
 
 ``` ./loop.sh -v https://www.japscan.cc/lecture-en-ligne/manganame 1 10```
 
-Dl chapter 100 to chapter 200 of a manga :
+DL chapter 100 to chapter 200 of a manga :
 
 ``` ./loop.sh https://www.japscan.cc/lecture-en-ligne/manganame 100 200```
 
