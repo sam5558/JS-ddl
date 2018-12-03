@@ -12,7 +12,7 @@ run this command for the dependencies :
 
 and run the following command to download your manga :
 
-```./loop.sh https://www.japscan.cc/lecture-en-ligne/manganame first last [-v]'```
+```./loop.sh https://www.japscan.cc/lecture-en-ligne/manganame first last [-v]```
 
 Replace :
 
